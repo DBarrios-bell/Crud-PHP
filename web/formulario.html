@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Registrar Persona</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+	<center>
+		<div class="container border p-3">
+			<h2>Registrar Universidad</h2>
+			<div class="container col-lg-7 p-2">
+				<form method="post" action="../controlador/nuevaPersona.php">
+					<div class="mb-3">
+						<label for="clave" class="form-label">Clave:</label>
+						<input type="password" class="form-control" name="clave" id="clave" required
+							placeholder="Escribe tu Clave...">
+					</div>
+					<div class="mb-3">
+						<label for="nombre" class="form-label">Nombre:</label>
+						<input type="text" class="form-control" name="nombre" id="nombre" required
+							placeholder="Escribe tu nombre...">
+					</div>
+					<div class="mb-3">
+						<label for="categoria" class="form-label">Categoria:</label>
+						<input type="text" class="form-control" name="categoria" id="categoria" required
+							placeholder="Escribe tu Categoria...">
+					</div>
+					<div class="mb-3">
+						<label for="web" class="form-label">Sitio Web:</label>
+						<input type="text" class="form-control" name="web" id="web" required
+							placeholder="Escribe tu Web...">
+					</div>
+					<div class="mb-3">
+						<label for="rector" class="form-label">Nombre Del Rector:</label>
+						<input type="text" class="form-control" name="rector" id="rector" required
+							placeholder="Escribe tu Rector...">
+					</div>
+					<div class="mb-3">
+						<label for="email" class="form-label">Email:</label>
+						<input type="email" class="form-control" name="email" id="email" required
+							placeholder="Escribe El Email...">
+					</div>
+					<div class="mb-3">
+						<label for="acceso" class="form-label">Acceso:</label>
+						<input type="text" class="form-control" name="acceso" id="acceso" required
+							placeholder="Escribe tu Acceso...">
+					</div>
+					<div class="mb-3">
+						<label for="telefono" class="form-label">telefono:</label>
+						<input type="number" class="form-control" name="telefono" id="telefono" required
+							placeholder="Escribe tu telefono...">
+					</div>
+					<div class="mb-3">
+						<label for="ciudad" class="form-label">ciudad:</label>
+						<input type="text" class="form-control" name="ciudad" id="ciudad" required
+							placeholder="Escribe tu ciudad...">
+					</div>
+					<div class="mb-3">
+						<label for="numerocarrera" class="form-label">Numero Carrera:</label>
+						<select name="numerocarrera" id="numerocarrera" class="form-control" required>
+							<option value="">--Selecciona--</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="7">8</option>
+							<option value="8">9</option>
+						</select>
+					</div>
+					<div class="mb-3">
+						<label for="numsedes" class="form-label">Numero Sedes:</label>
+						<select name="numsedes" id="numsedes" class="form-control" required>
+							<option value="">--Selecciona--</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="7">8</option>
+							<option value="8">9</option>
+						</select>
+					</div>
+					<div class="container m-5">
+						<input type="submit" class="btn btn-outline-primary" value="Registrar">
+						<a href="http://localhost/php_crud/crud/listarUniversidad.php" type="button"
+							class="btn btn-outline-danger">Cancelar</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</center>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+	</script>
+</body>
+
+</html>
